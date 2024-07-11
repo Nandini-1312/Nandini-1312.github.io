@@ -12,7 +12,7 @@ description: > # your text below (remove <br> elements if you don't need line br
 # - jekyll-remote-theme
 # google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
-<br>
+  <br>
   Hi there! I'm Nandini, pursuing Master's in Data Science at University at Buffalo focusing on Machine Learning, Statistical Data Mining, DBMS and Analytics. <br><br>
   <a href="https://github.com/Nandini-1312">View my Github Profile</a> 
 show_downloads: true  
