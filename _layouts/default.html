@@ -31,14 +31,14 @@
             overflow-y: auto;
             box-sizing: border-box;
 
-            display: flex;
+            /*display: flex;
             flex-direction: column; /* Align items vertically in a column */
             justify-content: center; /* Center-align items vertically */
             align-items: center; /* Center-align items horizontally */
         }
         .pane:first-child, .pane:nth-child(2) {
             flex: 0 0 300px; /* Fixed width for the first two panes */
-            border-right: 1px solid #ccc;
+            border-right: 0.5px solid #ccc;
         }
         .pane:nth-child(3) {
             flex: 1;
@@ -98,7 +98,7 @@
                 Connect on LinkedIn
             </a>
         </p>
-        <p>
+        <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
             <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
             <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
                 <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
