@@ -1,7 +1,10 @@
 title: Nandini Ethirajulu # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+   <br>
    Hi there! I'm Nandini, pursuing Master's in Data Science at University at Buffalo focusing on Machine Learning, Statistical Data Mining, DBMS and Analytics. 
+   <br><br>
+   <a href="https://github.com/Nandini-1312">View my Github Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
