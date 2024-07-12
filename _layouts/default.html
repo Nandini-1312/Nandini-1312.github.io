@@ -28,13 +28,15 @@
         }
         .container {
             display: flex;
+            flex-direction: column; /* Stack panes vertically */
             width: 100%;
             height: 100%;
         }
         .pane {
             padding: 10px;
-            box-sizing: border-box;
             overflow-y: auto;
+            box-sizing: border-box;
+            /* Flex to maintain the layout */
         }
         .pane:first-child, .pane:nth-child(2) {
             flex: 0 0 350px; /* Fixed width for the first two panes */
@@ -111,12 +113,16 @@
         .icon-link span {
             font-size: 14px;
         }
-        .bottom-content {
-            grid-column: span 2; /* Span across two columns in grid layout */
+        .combined-bottom {
+            flex: 0 0 calc(350px * 2); /* Combined width of the first two panes */
             padding: 10px;
             border-top: 1px solid #ccc;
             background-color: #f9f9f9;
             text-align: center;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
@@ -153,7 +159,7 @@
                     Connect on LinkedIn
                 </a>
             </p>
-            <p style="display: flex; justify-content: center; align-items: center; margin: 0;">
+            <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
                 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
                 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
                     <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
@@ -168,9 +174,9 @@
                 </a>
             </p>
         </div>
-        <div class="pane bottom-content">
-            <!-- Combined Bottom Content -->
-            <p>Combined content for the bottom of the first two panes.</p>
+        <div class="combined-bottom">
+            <!-- Combined Content Text -->
+            <p>This is the combined content section at the bottom of the first two panes.</p>
         </div>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
