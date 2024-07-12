@@ -8,7 +8,7 @@
 - [Market Basket Analysis for RM Customer Purchase Behavior](https://github.com/Nandini-1312/Market-Basket-Analysis)
 - [Bank of Buffalo DBMS Project](https://github.com/Nandini-1312/Bank-of-Buffalo-DBMS-Project)
 
-- <a href="section5">Bank of Buffalo DBMS Project</a>
+- <a href="#section5" style="font-size: inherit;">Bank of Buffalo DBMS Project</a>
 ---
 
 
