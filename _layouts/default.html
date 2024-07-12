@@ -26,21 +26,20 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .container {
-            display: flex;
-            flex-direction: column; /* Stack panes vertically */
-            width: 100%;
-            height: 100%;
-        }
         .pane {
             padding: 10px;
             overflow-y: auto;
             box-sizing: border-box;
-            /* Flex to maintain the layout */
+
+            /*display: flex;
+            flex-direction: column; /* Align items vertically in a column */
+            justify-content: center; /* Center-align items vertically */
+            align-items: center; /* Center-align items horizontally */
         }
         .pane:first-child, .pane:nth-child(2) {
             flex: 0 0 350px; /* Fixed width for the first two panes */
-            overflow-x: hidden;
+           /* border-right: 1px solid #ccc; */
+             overflow-x: hidden;
         }
         .pane:nth-child(3) {
             flex: 1;
@@ -81,7 +80,7 @@
             background-color: #333;
             color: white;
         }
-        .icon-links {
+           .icon-links {
             display: flex;
             justify-content: space-around;
             width: 100%;
@@ -113,71 +112,58 @@
         .icon-link span {
             font-size: 14px;
         }
-        .combined-bottom {
-            flex: 0 0 calc(350px * 2); /* Combined width of the first two panes */
-            padding: 10px;
-            border-top: 1px solid #ccc;
-            background-color: #f9f9f9;
-            text-align: center;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="pane">
-            <!-- Profile Picture and Intro -->
-            <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
-            <h2>{{ site.title | default: site.github.repository_name }}</h2>
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <!-- Bottom Icons Section -->
-            <div class="icon-links">
-                <a href="#about-me" class="icon-link">
-                    <i class="fas fa-user"></i>
-                    <span>About</span>
-                </a>
-                <a href="#skills" class="icon-link">
-                    <i class="fas fa-cogs"></i>
-                    <span>Skills</span>
-                </a>
-                <a href="#certifications" class="icon-link">
-                    <i class="fas fa-certificate"></i>
-                    <span>Certifications</span>
-                </a>
+    <div class="pane">
+        <!-- Profile Picture and Intro -->
+        <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
+        <h2>{{ site.title | default: site.github.repository_name }}</h2>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+         <!-- Bottom Icons Section -->
+        <div class="icon-links">
+            <a href="#about-me" class="icon-link">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+            </a>
+            <a href="#skills" class="icon-link">
+                <i class="fas fa-cogs"></i>
+                <span>Skills</span>
+            </a>
+            <a href="#certifications" class="icon-link">
+                <i class="fas fa-certificate"></i>
+                <span>Certifications</span>
+            </a>
+        </div>
+    </div>
+    <div class="pane">
+        <!-- Links and Badges -->
+        <p>
+            <a href="https://www.linkedin.com/in/nandini-ethirajulu" target="_blank" class="linkedin-link">
+                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M22.23 0H1.77C.79 0 0 .774 0 1.729v20.542C0 23.227.79 24 1.77 24h20.46C23.21 24 24 23.226 24 22.271V1.729C24 .774 23.21 0 22.23 0zM7.08 20.452H3.548V9.049H7.08v11.403zM5.313 7.693c-1.13 0-2.048-.923-2.048-2.053 0-1.132.92-2.052 2.048-2.052s2.048.92 2.048 2.052c0 1.13-.918 2.053-2.048 2.053zm14.163 12.759h-3.531v-5.569c0-1.327-.028-3.037-1.851-3.037-1.852 0-2.135 1.446-2.135 2.939v5.667h-3.531V9.049h3.391v1.556h.047c.473-.896 1.635-1.848 3.366-1.848 3.598 0 4.264 2.367 4.264 5.447v6.248z"/>
+                </svg>
+                Connect on LinkedIn
+            </a>
+        </p>
+        <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
+                <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
             </div>
-        </div>
-        <div class="pane">
-            <!-- Links and Badges -->
-            <p>
-                <a href="https://www.linkedin.com/in/nandini-ethirajulu" target="_blank" class="linkedin-link">
-                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M22.23 0H1.77C.79 0 0 .774 0 1.729v20.542C0 23.227.79 24 1.77 24h20.46C23.21 24 24 23.226 24 22.271V1.729C24 .774 23.21 0 22.23 0zM7.08 20.452H3.548V9.049H7.08v11.403zM5.313 7.693c-1.13 0-2.048-.923-2.048-2.053 0-1.132.92-2.052 2.048-2.052s2.048.92 2.048 2.052c0 1.13-.918 2.053-2.048 2.053zm14.163 12.759h-3.531v-5.569c0-1.327-.028-3.037-1.851-3.037-1.852 0-2.135 1.446-2.135 2.939v5.667h-3.531V9.049h3.391v1.556h.047c.473-.896 1.635-1.848 3.366-1.848 3.598 0 4.264 2.367 4.264 5.447v6.248z"/>
-                    </svg>
-                    Connect on LinkedIn
-                </a>
-            </p>
-            <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
-                <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
-                    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
-                </div>
-            </p>
-            <p>
-                <a href="https://github.com/Nandini-1312" target="_blank" class="github-link">
-                    <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M12 .5C5.8.5.8 5.5.8 11.7c0 5 3.3 9.2 7.9 10.7.6.1.8-.3.8-.6V19c-3.3.7-4-1.3-4-1.3-.6-1.4-1.3-1.8-1.3-1.8-1-.7.1-.7.1-.7 1.1.1 1.6 1.2 1.6 1.2 1 1.6 2.6 1.1 3.3.8.1-.7.4-1.1.6-1.3-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.3 1-.3 2-.5 3-.5 1 0 2 .2 3 .5 2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 2.9.1 3.2.7.8 1.2 1.8 1.2 3.1 0 4.5-2.8 5.5-5.4 5.8.4.4.6 1 .6 1.9v2.8c0 .3.2.7.8.6 4.6-1.5 7.9-5.6 7.9-10.7C23.2 5.5 18.2.5 12 .5z"/>
-                    </svg>
-                    Check out my GitHub
-                </a>
-            </p>
-        </div>
-        <div class="combined-bottom">
-            <!-- Combined Content Text -->
-            <p>This is the combined content section at the bottom of the first two panes.</p>
-        </div>
+        </p>
+        <p>
+            <a href="https://github.com/Nandini-1312" target="_blank" class="github-link">
+                <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 .5C5.8.5.8 5.5.8 11.7c0 5 3.3 9.2 7.9 10.7.6.1.8-.3.8-.6V19c-3.3.7-4-1.3-4-1.3-.6-1.4-1.3-1.8-1.3-1.8-1-.7.1-.7.1-.7 1.1.1 1.6 1.2 1.6 1.2 1 1.6 2.6 1.1 3.3.8.1-.7.4-1.1.6-1.3-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.3 1-.3 2-.5 3-.5 1 0 2 .2 3 .5 2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 2.9.1 3.2.7.8 1.2 1.8 1.2 3.1 0 4.5-2.8 5.5-5.4 5.8.4.4.6 1 .6 1.9v2.8c0 .3.2.7.8.6 4.6-1.5 7.9-5.6 7.9-10.7C23.2 5.5 18.2.5 12 .5z"/>
+                </svg>
+                Check out my GitHub
+            </a>
+        </p>
+    </div>
+    <div class="pane">
+        <!-- Project Details -->
+        {{ content }}
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
