@@ -8,7 +8,7 @@
 - [Market Basket Analysis for RM Customer Purchase Behavior](https://github.com/Nandini-1312/Market-Basket-Analysis)
 - [Bank of Buffalo DBMS Project](https://github.com/Nandini-1312/Bank-of-Buffalo-DBMS-Project)
 
-- <a href="#section5" >Bank of Buffalo DBMS Project</a>
+- <a href="#section5" style="font-size: inherit;" >Bank of Buffalo DBMS Project</a>
 ---
 
 
@@ -55,7 +55,7 @@ The project involves preprocessing the raw transactional data to create a binary
 
 ---
 
-<h4 id="section5">Bank of Buffalo DBMS Project</h3>
+<h4 id="section5">Bank of Buffalo DBMS Project</h4>
 
 This DBMS project aims to modernize and streamline the management of banking information, enhancing customer interactions and operational efficiency. The system captures comprehensive data related to the bank’s branches, employees, customers, accounts, transactions, loans, and insurance services. The primary goal is to create an intuitive and robust database where information retrieval is simplified through structured relationships and normalized tables, ensuring easy access and management for both bank staff and customers. This customer-centric approach facilitates seamless transactions and account management, improving overall service delivery.
 
