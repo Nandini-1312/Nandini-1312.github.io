@@ -79,6 +79,27 @@
             background-color: #333;
             color: white;
         }
+          .icon-links {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: auto; /* Push icons to the bottom */
+        }
+        .icon-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .icon-link i {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .icon-link span {
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -87,6 +108,21 @@
         <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
         <h2>{{ site.title | default: site.github.repository_name }}</h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+         <!-- Bottom Icons Section -->
+        <div class="icon-links">
+            <a href="#about-me" class="icon-link">
+                <i class="fas fa-user"></i>
+                <span>About Me</span>
+            </a>
+            <a href="#skills" class="icon-link">
+                <i class="fas fa-cogs"></i>
+                <span>Skills</span>
+            </a>
+            <a href="#certifications" class="icon-link">
+                <i class="fas fa-certificate"></i>
+                <span>Certifications</span>
+            </a>
+        </div>
     </div>
     <div class="pane">
         <!-- Links and Badges -->
