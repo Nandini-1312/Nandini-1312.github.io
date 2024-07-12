@@ -2,13 +2,12 @@
 
 ---
 
-- [Personalized Movie Recommendation System using Collaborative Filtering](https://github.com/Nandini-1312/Personalized-Movie-Recommendation-System-using-Collaborative-Filtering)
-- [California Housing Data Association Rules Analysis](https://github.com/Nandini-1312/California-Housing-Data-Association-Rules-Analysis)
-- [Grocery Data Analysis and Association Rules](https://github.com/Nandini-1312/Grocery-Data-Analysis-and-Association-Rules)
-- [Market Basket Analysis for RM Customer Purchase Behavior](https://github.com/Nandini-1312/Market-Basket-Analysis)
-- [Bank of Buffalo DBMS Project](https://github.com/Nandini-1312/Bank-of-Buffalo-DBMS-Project)
+- <a href="#section1" style="font-size: normal;" > Personalized Movie Recommendation System using Collaborative Filtering</a>
+- <a href="#section2" style="font-size: normal;" > California Housing Data Association Rules Analysis</a>
+- <a href="#section3" style="font-size: normal;" > Grocery Data Analysis and Association Rules</a>
+- <a href="#section4" style="font-size: normal;" > Market Basket Analysis for RM Customer Purchase Behavior</a>
+- <a href="#section5" style="font-size: normal;" >Bank of Buffalo DBMS Project</a>
 
-- <a href="#section5" style="font-size: inherit;" >Bank of Buffalo DBMS Project</a>
 ---
 
 
