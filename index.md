@@ -56,6 +56,7 @@ The project involves preprocessing the raw transactional data to create a binary
 ---
 
 <h4 id="section5">Bank of Buffalo DBMS Project</h3>
+
 This DBMS project aims to modernize and streamline the management of banking information, enhancing customer interactions and operational efficiency. The system captures comprehensive data related to the bank’s branches, employees, customers, accounts, transactions, loans, and insurance services. The primary goal is to create an intuitive and robust database where information retrieval is simplified through structured relationships and normalized tables, ensuring easy access and management for both bank staff and customers. This customer-centric approach facilitates seamless transactions and account management, improving overall service delivery.
 
 The project involves detailed steps including data analysis, creating an Entity-Relationship (ER) diagram, and designing and normalizing database tables. The ER diagram outlines the relationships between entities such as branches, employees, and accounts, ensuring accurate data linkage and integrity. The database implementation encompasses designing tables with proper foreign key constraints to represent one-to-many relationships, such as between branches and employees or accounts and transactions. This systematic approach not only supports efficient data handling and retrieval but also enhances the bank’s ability to offer personalized services and streamlined operations.
