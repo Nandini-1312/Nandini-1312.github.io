@@ -29,16 +29,15 @@
         .pane {
             padding: 10px;
             overflow-y: auto;
-            box-sizing: border-box;
-
-            /*display: flex;
-            flex-direction: column; /* Align items vertically in a column */
+            box-sizing: border-box; /* Includes padding and border in width */
+            display: flex;
+            flex-direction: column; /* Align items vertically */
             justify-content: center; /* Center-align items vertically */
             align-items: center; /* Center-align items horizontally */
         }
         .pane:first-child, .pane:nth-child(2) {
             flex: 0 0 280px; /* Fixed width for the first two panes */
-           /* border-right: 1px solid #ccc; */
+            border-right: 1px solid #ccc; /* Add border */
         }
         .pane:nth-child(3) {
             flex: 1;
@@ -79,7 +78,7 @@
             background-color: #333;
             color: white;
         }
-           .icon-links {
+        .icon-links {
             display: flex;
             justify-content: space-around;
             width: 100%;
@@ -119,7 +118,7 @@
         <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
         <h2>{{ site.title | default: site.github.repository_name }}</h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-         <!-- Bottom Icons Section -->
+        <!-- Bottom Icons Section -->
         <div class="icon-links">
             <a href="#about-me" class="icon-link">
                 <i class="fas fa-user"></i>
@@ -145,7 +144,7 @@
                 Connect on LinkedIn
             </a>
         </p>
-        <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
+        <p style="display: flex; justify-content: center; align-items: center; margin: 0;">
             <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
             <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
                 <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
