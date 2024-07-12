@@ -79,11 +79,13 @@
             background-color: #333;
             color: white;
         }
-          .icon-links {
+           .icon-links {
             display: flex;
             justify-content: space-around;
             width: 100%;
             margin-top: auto; /* Push icons to the bottom */
+            padding: 10px;
+            gap: 10px; /* Space between buttons */
         }
         .icon-link {
             display: flex;
@@ -92,6 +94,15 @@
             color: #333;
             text-decoration: none;
             font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: #f0f0f0;
+        }
+        .icon-link:hover {
+            background-color: #0077b5; /* Change to desired hover color */
+            color: white;
         }
         .icon-link i {
             font-size: 24px;
