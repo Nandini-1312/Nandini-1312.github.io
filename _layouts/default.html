@@ -22,7 +22,6 @@
     <style>
         body {
             display: flex;
-            flex-direction: column;
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
@@ -31,13 +30,19 @@
             padding: 10px;
             overflow-y: auto;
             box-sizing: border-box;
+
+            /*display: flex;
+            flex-direction: column; /* Align items vertically in a column */
+            justify-content: center; /* Center-align items vertically */
+            align-items: center; /* Center-align items horizontally */
         }
         .pane:first-child, .pane:nth-child(2) {
-            flex: 0 0 auto; /* Fixed height for the first two panes */
+            flex: 0 0 350px; /* Fixed width for the first two panes */
+           /* border-right: 1px solid #ccc; */
+             overflow-x: hidden;
         }
         .pane:nth-child(3) {
             flex: 1;
-            overflow-x: hidden;
         }
         .profile-picture {
             width: 100%;
@@ -75,10 +80,11 @@
             background-color: #333;
             color: white;
         }
-        .icon-links {
+           .icon-links {
             display: flex;
             justify-content: space-around;
             width: 100%;
+            margin-top: auto; /* Push icons to the bottom */
             padding: 10px;
             gap: 10px; /* Space between buttons */
         }
@@ -106,13 +112,6 @@
         .icon-link span {
             font-size: 14px;
         }
-        .section {
-            padding: 20px;
-            margin-top: 20px;
-            background: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
     </style>
 </head>
 <body>
@@ -123,17 +122,21 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
          <!-- Bottom Icons Section -->
         <div class="icon-links">
-            <a href="#about" class="icon-link">
+              <a href="#about-me" class="icon-link">
                 <i class="fas fa-user"></i>
                 <span>About</span>
             </a>
-            <a href="#education" class="icon-link">
-                <i class="fas fa-graduation-cap"></i>
-                <span>Education</span>
+            <a href="#skills" class="icon-link">
+                <i class="fas fa-cogs"></i>
+                <span>Skills</span>
             </a>
-            <a href="#experience" class="icon-link">
+            <a href="#certifications" class="icon-link">
+                <i class="fas fa-certificate"></i>
+                <span>Certifications</span>
+            </a>
+            <a href="#workexperience" class="icon-link">
                 <i class="fas fa-briefcase"></i>
-                <span>Experience</span>
+                <span>Work Experience</span>
             </a>
         </div>
     </div>
@@ -148,12 +151,12 @@
                 Connect on LinkedIn
             </a>
         </p>
-        <p style="display: flex; justify-content: center; align-items: center; margin: 0;">
-            <center>  
-                <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
-                    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
-                </div>
+        <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
+            
+            <center>  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
+                <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
+            </div>
             </center>
         </p>
         <p>
@@ -169,25 +172,12 @@
                 <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                    <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
                 </svg>
-                View my Resume
-            </a>
+            View my Resume
+           </a>
         </p>
-        </center>
+            </center>
     </div>
     <div class="pane">
-        <!-- Content Sections -->
-        <div id="about" class="section">
-            <h2>About</h2>
-            <p>Content for the About section.</p>
-        </div>
-        <div id="education" class="section">
-            <h2>Education</h2>
-            <p>Content for the Education section.</p>
-        </div>
-        <div id="experience" class="section">
-            <h2>Experience</h2>
-            <p>Content for the Experience section.</p>
-        </div>
         <!-- Project Details -->
         {{ content }}
     </div>
