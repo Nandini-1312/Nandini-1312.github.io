@@ -66,7 +66,7 @@ End-to-end SQL scripts were developed from scratch, covering Data Definition Lan
 
 
 
-<h2 id="Education">Education</h4>
+<h2 id="Education">Education</h2>
 
 **Master of Professional Studies – Data Science and Applications**
 
