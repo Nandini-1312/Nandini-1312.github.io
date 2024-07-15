@@ -64,3 +64,20 @@ End-to-end SQL scripts were developed from scratch, covering Data Definition Lan
 
 [Go to GitHub Repository](https://github.com/Nandini-1312/Bank-of-Buffalo-DBMS-Project)
 
+
+
+<h2 id="Education">Education</h4>
+
+**Master of Professional Studies – Data Science and Applications**
+
+University at Buffalo, The State University of New York, Buffalo, NY
+
+Relevant coursework: Programming and Databases, DBMS, Numerical Analysis, Probability and Data Analysis, Statistical Data Mining, Machine Learning, Cybersecurity Privacy and Ethics
+
+Expected Graduation: January 2025
+
+**Bachelor of Computer Applications**
+
+Madras Christian College, Chennai, TN, India
+
+Graduated On: June 2019
