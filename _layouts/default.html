@@ -116,7 +116,7 @@
 <div class="pane">
     <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
     <h2>{{ site.title | default: site.github.repository_name }}</h2>
-    <p>{{ site.description | default: site.github.project_tagline }}</p>
+    {{ site.description | default: site.github.project_tagline }}
     <div class="icon-links">
         <a href="#Education" class="icon-link">
             <i class="fas fa-certificate"></i>
