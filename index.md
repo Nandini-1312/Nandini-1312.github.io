@@ -81,3 +81,90 @@ Expected Graduation: January 2025
 Madras Christian College, Chennai, TN, India
 
 Graduated On: June 2019
+
+
+<h2 id="About Me">About Me</h2>
+
+Hello! I’m Nandini Ethirajulu, a dedicated data scientist currently pursuing a Master’s in Data Sciences and Applications at the University at Buffalo. With a robust background in computer applications and data science, I have cultivated a diverse skill set encompassing programming, data analysis, machine learning, and data management.
+
+My professional journey commenced at Deloitte USI Consulting, where I served as an Analyst and Associate Analyst. During my tenure, I spearheaded the development of advanced ETL packages, optimized data integration processes, and crafted sophisticated data visualizations using Tableau. My efforts have consistently aimed at enhancing data integrity, minimizing process downtime, and improving user experience.
+
+In addition to my professional experience, I have undertaken various academic projects that have sharpened my technical skills. From conducting market basket analysis to designing comprehensive DBMS systems, I have applied my expertise to solve complex data problems and deliver actionable insights. My coursework has spanned a broad spectrum of topics, including machine learning, statistical data mining, cybersecurity, and ethics, providing me with a solid foundation in both theory and practice.
+
+I am continually eager to embrace new challenges and contribute to innovative projects. My objective is to leverage my skills and experience to drive data-driven decision-making and create a meaningful impact within any organization I join. Feel free to connect with me on [LinkedIn](www.linkedin.com/in/nandini-ethirajulu) or explore my projects on [GitHub](https://github.com/Nandini-1312).
+
+<h2 id="Work Experience">Work Experience</h2>
+
+**Deloitte USI Consulting**
+
+Role: Analyst 
+
+June 2021 - July 2023
+
+•	Spearheaded the development of 200+ advanced SSIS ETL packages for a US State Government project, ensuring seamless ETL of data from the source Application Database to an intermediate Staging Layer Database with a focus on Data Integrity.
+
+•	Architected and optimized ETL packages to facilitate both full data loads during initial runs and highly efficient incremental data loads during subsequent daily runs, resulting in remarkable improvement in ETL performance and eliminating data redundancy.
+
+•	Crafted intricate Oracle PL/SQL stored procedures to extract and transform data for over 200+ customized client reports and dashboards. Developed reusable ETL packages for executing these procedural scripts at diverse reporting frequencies (Daily, Monthly, Annual), and leveraging Tableau for sophisticated data visualization, increasing user experience by 30%.
+
+•	Engineered a robust restart and error tracking mechanism across the ETL process, ensuring swift identification and resolution of data discrepancies. This mechanism facilitated the targeted rerunning of errored ETL packages, thereby achieving a 90% reduction in ETL process downtime. Additionally, automated archival processes were implemented to boost operational efficiency and ensure compliance, preserving data integrity and accessibility at all times.
+
+**Deloitte USI Consulting**
+
+Role: Associate Analyst
+
+August 2019 - May 2021
+
+•	Led the extraction and preprocessing of data from diverse sources including application systems, files, and databases for a critical Legacy System Conversion initiative. Standardized data format, structure, and quality, achieving data accuracy and ensuring compliance with industry standards.
+
+•	Implemented SSIS ETL jobs and procedural scripts to efficiently stage, integrate, and transform data, resulting in a 50% reduction in data processing time and minimized information loss to less than 0.2%. Completed complex data transformations ahead of schedule to meet project deadlines.
+
+•	Utilized Salesforce’s bulk data loading utility to seamlessly migrate transformed data into the target database, improving operational efficiency and maintaining high data integrity and accessibility throughout the conversion process.
+
+<h2 id="Skills">Skills</h2>
+
+<h3>Programming Languages:</h3>
+
+Python
+R
+Visual Basic
+Oracle PL/SQL
+Java
+
+<h3>Data Analysis and Modeling:</h3>
+
+Machine Learning
+Statistical Data Mining
+
+<h3>Data Management and Analytics:</h3>
+
+Oracle
+MS SQL Server
+SSIS ETL
+Data Warehousing
+
+<h3>Web Development:</h3>
+
+HTML
+CSS
+JavaScript
+
+<h3>Tools:</h3>
+
+Visual Studio
+Microsoft Office Suite
+
+<h3>Visualization:</h3>
+
+Tableau
+Power BI
+
+<h2 id="Awards">Awards</h2>
+
+•	Outstanding Performance Award Deloitte, 2022 
+
+•	Applause Award 	Deloitte, 2022
+
+•	Spot Award 	Deloitte, 2021
+
+•	Undergraduate Special Prize I	2017 and 2019
