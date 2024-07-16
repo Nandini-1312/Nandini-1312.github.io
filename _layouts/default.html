@@ -30,16 +30,14 @@
             padding: 10px;
             overflow-y: auto;
             box-sizing: border-box;
-
-            /*display: flex;
+            display: flex;
             flex-direction: column; /* Align items vertically in a column */
-            justify-content: center; /* Center-align items vertically */
-            align-items: center; /* Center-align items horizontally */
+            justify-content: space-between; /* Space out items vertically */
         }
+        
         .pane:first-child, .pane:nth-child(2) {
             flex: 0 0 350px; /* Fixed width for the first two panes */
-           /* border-right: 1px solid #ccc; */
-             overflow-x: hidden;
+            overflow-x: hidden;
         }
         .pane:nth-child(3) {
             flex: 1;
@@ -80,13 +78,13 @@
             background-color: #333;
             color: white;
         }
-           .icon-links {
+        .icon-links {
             display: flex;
-            justify-content: space-around;
-            width: 100%;
+            flex-direction: column;
+            justify-content: space-between; /* Space out icons vertically */
+            gap: 10px; /* Space between buttons */
             margin-top: auto; /* Push icons to the bottom */
             padding: 10px;
-            gap: 10px; /* Space between buttons */
         }
         .icon-link {
             display: flex;
@@ -115,40 +113,35 @@
     </style>
 </head>
 <body>
-    <div class="pane">
-        <!-- Profile Picture and Intro -->
-        <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
-        <h2>{{ site.title | default: site.github.repository_name }}</h2>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-         <!-- Bottom Icons Section -->
-        <div class="icon-links">
-
-
-            <a href="#Education" class="icon-link">
-                <i class="fas fa-certificate"></i>
-                <span>Education</span>
-            </a>
-            <a href="#About Me" class="icon-link">
-                <i class="fas fa-user"></i>
-                <span>About Me</span>
-            </a>
-            <a href="#Work Experience" class="icon-link">
-                <i class="fas fa-briefcase"></i>
-                <span>Work Experience</span> 
-            </a>
-            <a href="#Skills" class="icon-link">
-                <i class="fas fa-cogs"></i>
-                <span>Skills</span>
-            </a>
-            <a href="#Awards" class="icon-link">
-                <i class="fas fa-cogs"></i>
-                <span>Awards</span>
-            </a>
-        </div>
+<div class="pane">
+    <img src="{{site.logo | relative_url}}" alt="Profile Picture" class="profile-picture" />
+    <h2>{{ site.title | default: site.github.repository_name }}</h2>
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
+    <div class="icon-links">
+        <a href="#Education" class="icon-link">
+            <i class="fas fa-certificate"></i>
+            <span>Education</span>
+        </a>
+        <a href="#About Me" class="icon-link">
+            <i class="fas fa-user"></i>
+            <span>About Me</span>
+        </a>
+        <a href="#Work Experience" class="icon-link">
+            <i class="fas fa-briefcase"></i>
+            <span>Work Experience</span> 
+        </a>
+        <a href="#Skills" class="icon-link">
+            <i class="fas fa-cogs"></i>
+            <span>Skills</span>
+        </a>
+        <a href="#Awards" class="icon-link">
+            <i class="fas fa-trophy"></i>
+            <span>Awards</span>
+        </a>
     </div>
-    <div class="pane">
-        <!-- Links and Badges -->
-        <center>
+</div>
+<div class="pane">
+    <center>
         <p>
             <a href="https://www.linkedin.com/in/nandini-ethirajulu" target="_blank" class="linkedin-link">
                 <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -157,13 +150,11 @@
                 Connect on LinkedIn
             </a>
         </p>
-        <p  style="display: flex; justify-content: center; align-items: center; margin: 0;">
-            
-            <center>  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
+        <p style="display: flex; justify-content: center; align-items: center; margin: 0;">
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nandini-ethirajulu" data-version="v1">
                 <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nandini-ethirajulu?trk=profile-badge"></a>
             </div>
-            </center>
         </p>
         <p>
             <a href="https://github.com/Nandini-1312" target="_blank" class="github-link">
@@ -178,15 +169,15 @@
                 <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                    <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
                 </svg>
-            View my Resume
+                View my Resume
            </a>
         </p>
-            </center>
-    </div>
-    <div class="pane">
-        <!-- Project Details -->
-        {{ content }}
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    </center>
+</div>
+<div class="pane">
+    {{ content }}
+</div>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
 </html>
+
