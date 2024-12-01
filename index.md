@@ -2,6 +2,7 @@
 
 ---
 
+- <a href="#section6" style="font-size: normal;" > Loan Quality Prediction - A Data Driven Approach for Financial Risk Management</a>
 - <a href="#section1" style="font-size: normal;" > Personalized Movie Recommendation System using Collaborative Filtering</a>
 - <a href="#section2" style="font-size: normal;" > California Housing Data Association Rules Analysis</a>
 - <a href="#section3" style="font-size: normal;" > Grocery Data Analysis and Association Rules</a>
@@ -10,8 +11,26 @@
 
 ---
 
+<h4 id="section6">Loan Quality Prediction - A Data Driven Approach for Financial Risk Management</h4>
+
+The primary goal of this project was to develop a predictive model to assess loan quality (Good or Bad) using a data-driven, supervised machine learning approach. By tackling key challenges such as class imbalance, high dimensionality, and model evaluation, the project aimed to provide actionable insights for financial risk management. Predicting loan quality helps financial institutions minimize defaults, optimize resource allocation, and adhere to regulatory requirements, making it a critical area of focus in the financial sector.
+
+To achieve these goals, the project implemented a structured methodology beginning with data preprocessing, where categorical labels were encoded and numerical variables were standardized. These steps ensured the dataset was machine-learning-ready while preserving interpretability. Principal Component Analysis (PCA) was applied for dimensionality reduction, which reduced computational complexity while retaining 87% of the data's variance. This step also mitigated overfitting risks, making the model more robust.
+
+A significant challenge addressed was the severe class imbalance in the dataset, which initially led to poor performance in identifying Bad Loans. Synthetic Minority Oversampling Technique (SMOTE) was employed to generate synthetic samples for the minority class, resulting in a more balanced dataset. The project then re-applied PCA to maintain reduced dimensionality post-SMOTE. Logistic regression was used as the predictive model, and its performance was evaluated using the ROC curve instead of accuracy alone. This ensured a deeper understanding of the model’s ability to distinguish between loan classes, with a focus on minimizing false positives for "Bad Loans."
+
+Through these implementations, the project demonstrated how a balanced and efficient predictive model can improve loan classification, supporting financial institutions in making data-driven decisions and managing risks effectively.
+
+Power BI visualizations were created to explore and interpret key patterns in the data. The complete file containing all Power BI visualizations has been uploaded to the GitHub repository for further reference.
+
+![image](https://github.com/user-attachments/assets/9ddd097e-22bf-4a33-9e55-96832b22d38e)
+
+![image](https://github.com/user-attachments/assets/e208cd5c-317b-49d0-a496-78d9157883c7)
 
 
+[Go to GitHub Repository](https://github.com/Nandini-1312/Loan-Quality-Prediction-A-Data-Driven-Approach-for-Financial-Risk-Management)
+
+---
 <h4 id="section1">Personalized Movie Recommendation System using Collaborative Filtering</h4>
 
 This project aims to develop a personalized movie recommendation system by leveraging collaborative filtering techniques to enhance user experience. Using the MovieLens dataset, which includes approximately 100,000 ratings from 943 users on 1,664 movies, the system employs R's `recommenderlab` package to build both user-based and item-based recommendation models. Initial data exploration involves preprocessing and normalizing the ratings to prepare the dataset for modeling. The user-based collaborative filtering (UBCF) model recommends movies based on similar user preferences, while the item-based collaborative filtering (IBCF) model suggests movies similar to those previously rated by the user.
