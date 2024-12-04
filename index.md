@@ -28,14 +28,13 @@ Key findings include that the number of medical staff visits per day has the str
 
 <h4 id="section6">Loan Repayment Prediction Analysis</h4>
 
-The primary goal of this project was to develop a predictive model to assess the likelihood of loan repayment success or default risk using a data-driven, supervised machine learning approach. By addressing challenges such as class imbalance, high dimensionality, and model evaluation, the project aimed to provide actionable insights to improve prediction accuracy and reliability.
+This project aimed to develop a predictive model to assess the likelihood of loan repayment success or default risk using a supervised machine learning approach. The dataset of 37,408 records underwent comprehensive preprocessing, including handling missing values with mode-based imputation, median grouping, and proportional sampling for categorical distributions. Principal Component Analysis (PCA) reduced dimensionality while retaining 87% of the variance, ensuring computational efficiency and mitigating overfitting risks.
 
-To achieve these goals, the project followed a structured methodology beginning with data preprocessing, where categorical labels were encoded to represent repayment success or default risk, and numerical variables were standardized. These steps ensured the dataset was machine-learning-ready while preserving interpretability. Principal Component Analysis (PCA) was applied for dimensionality reduction, which reduced computational complexity while retaining 87% of the data's variance. This step also mitigated overfitting risks, enhancing model robustness.
 
-A significant challenge addressed was the severe class imbalance in the dataset, which initially led to poor performance in identifying loans at default risk. Synthetic Minority Oversampling Technique (SMOTE) was applied to generate synthetic samples for the minority class, resulting in a more balanced dataset. PCA was re-applied to maintain reduced dimensionality post-SMOTE. Logistic regression was chosen as the predictive model, and its performance was evaluated using the ROC curve instead of relying solely on accuracy. This approach ensured a deeper understanding of the model’s ability to distinguish between repayment outcomes, with a focus on minimizing false positives for loans at default risk.
+To address class imbalance, Synthetic Minority Oversampling Technique (SMOTE) was applied, generating synthetic samples for the minority class and balancing the dataset. Logistic regression was implemented post-SMOTE, achieving a balanced accuracy of 72.64% and an AUC of 0.78. The ROC curve demonstrated effective differentiation between repayment outcomes, minimizing false positives for loans at default risk.
 
-Through these implementations, the project demonstrated how a balanced and efficient predictive model can improve loan repayment predictions. Power BI visualizations were created to explore and interpret key patterns in the data. The complete file containing all Power BI visualizations has been uploaded to the GitHub repository for further reference.
 
+This project showcased how robust preprocessing and balanced modeling can enhance prediction reliability. Insights were further explored through Power BI visualizations, with key patterns and trends available in the GitHub repository for reference.
 
 ![image](https://github.com/user-attachments/assets/ffaa9a9c-b5f5-4257-95e9-3e80b02867d4)
 ![image](https://github.com/user-attachments/assets/f42df8ea-ddda-457a-bab6-957149f625ac)
