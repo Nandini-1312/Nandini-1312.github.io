@@ -37,9 +37,9 @@ A significant challenge addressed was the severe class imbalance in the dataset,
 Through these implementations, the project demonstrated how a balanced and efficient predictive model can improve loan repayment predictions. Power BI visualizations were created to explore and interpret key patterns in the data. The complete file containing all Power BI visualizations has been uploaded to the GitHub repository for further reference.
 
 
-![image](https://github.com/user-attachments/assets/9ddd097e-22bf-4a33-9e55-96832b22d38e)
+![image](https://github.com/user-attachments/assets/ffaa9a9c-b5f5-4257-95e9-3e80b02867d4)
+![image](https://github.com/user-attachments/assets/f42df8ea-ddda-457a-bab6-957149f625ac)
 
-![image](https://github.com/user-attachments/assets/e208cd5c-317b-49d0-a496-78d9157883c7)
 
 
 [Go to GitHub Repository](https://github.com/Nandini-1312/Loan-Quality-Prediction-A-Data-Driven-Approach-for-Financial-Risk-Management)
