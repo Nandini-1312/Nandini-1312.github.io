@@ -3,7 +3,7 @@
 ---
 
 - <a href="#section7" style="font-size: normal;" > Analysis of Patient Satisfaction in Healthcare: A Multiple Regression Approach Using SAS</a>
-- <a href="#section6" style="font-size: normal;" > Loan Quality Prediction - A Data Driven Approach for Financial Risk Management</a>
+- <a href="#section6" style="font-size: normal;" > Loan Repayment Prediction Analysis</a>
 - <a href="#section1" style="font-size: normal;" > Personalized Movie Recommendation System using Collaborative Filtering</a>
 - <a href="#section2" style="font-size: normal;" > California Housing Data Association Rules Analysis</a>
 - <a href="#section3" style="font-size: normal;" > Grocery Data Analysis and Association Rules</a>
@@ -13,7 +13,7 @@
 
 ---
 
-<h4 id="section6">Analysis of Patient Satisfaction in Healthcare: A Multiple Regression Approach Using SAS</h4>
+<h4 id="section7">Analysis of Patient Satisfaction in Healthcare: A Multiple Regression Approach Using SAS</h4>
 
 This project uses SAS to analyze patient satisfaction in a healthcare setting, focusing on factors such as age, length of stay, nurse-to-patient ratio, and medical staff visits. Using a multiple regression model, the goal was to identify significant predictors of patient satisfaction and provide actionable recommendations for healthcare administrators. The model explains 97.81% of the variation in satisfaction scores (R-squared = 0.9781) and includes key predictors like age, length of stay, the number of nurses, and the average daily staff visits, all showing significant contributions with p-values less than 0.05.
 
@@ -26,17 +26,16 @@ Key findings include that the number of medical staff visits per day has the str
 
 ---
 
-<h4 id="section6">Loan Quality Prediction - A Data Driven Approach for Financial Risk Management</h4>
+<h4 id="section6">Loan Repayment Prediction Analysis</h4>
 
-The primary goal of this project was to develop a predictive model to assess loan quality (Good or Bad) using a data-driven, supervised machine learning approach. By tackling key challenges such as class imbalance, high dimensionality, and model evaluation, the project aimed to provide actionable insights for financial risk management. Predicting loan quality helps financial institutions minimize defaults, optimize resource allocation, and adhere to regulatory requirements, making it a critical area of focus in the financial sector.
+The primary goal of this project was to develop a predictive model to assess the likelihood of loan repayment success or default risk using a data-driven, supervised machine learning approach. By addressing challenges such as class imbalance, high dimensionality, and model evaluation, the project aimed to provide actionable insights to improve prediction accuracy and reliability.
 
-To achieve these goals, the project implemented a structured methodology beginning with data preprocessing, where categorical labels were encoded and numerical variables were standardized. These steps ensured the dataset was machine-learning-ready while preserving interpretability. Principal Component Analysis (PCA) was applied for dimensionality reduction, which reduced computational complexity while retaining 87% of the data's variance. This step also mitigated overfitting risks, making the model more robust.
+To achieve these goals, the project followed a structured methodology beginning with data preprocessing, where categorical labels were encoded to represent repayment success or default risk, and numerical variables were standardized. These steps ensured the dataset was machine-learning-ready while preserving interpretability. Principal Component Analysis (PCA) was applied for dimensionality reduction, which reduced computational complexity while retaining 87% of the data's variance. This step also mitigated overfitting risks, enhancing model robustness.
 
-A significant challenge addressed was the severe class imbalance in the dataset, which initially led to poor performance in identifying Bad Loans. Synthetic Minority Oversampling Technique (SMOTE) was employed to generate synthetic samples for the minority class, resulting in a more balanced dataset. The project then re-applied PCA to maintain reduced dimensionality post-SMOTE. Logistic regression was used as the predictive model, and its performance was evaluated using the ROC curve instead of accuracy alone. This ensured a deeper understanding of the model’s ability to distinguish between loan classes, with a focus on minimizing false positives for "Bad Loans."
+A significant challenge addressed was the severe class imbalance in the dataset, which initially led to poor performance in identifying loans at default risk. Synthetic Minority Oversampling Technique (SMOTE) was applied to generate synthetic samples for the minority class, resulting in a more balanced dataset. PCA was re-applied to maintain reduced dimensionality post-SMOTE. Logistic regression was chosen as the predictive model, and its performance was evaluated using the ROC curve instead of relying solely on accuracy. This approach ensured a deeper understanding of the model’s ability to distinguish between repayment outcomes, with a focus on minimizing false positives for loans at default risk.
 
-Through these implementations, the project demonstrated how a balanced and efficient predictive model can improve loan classification, supporting financial institutions in making data-driven decisions and managing risks effectively.
+Through these implementations, the project demonstrated how a balanced and efficient predictive model can improve loan repayment predictions. Power BI visualizations were created to explore and interpret key patterns in the data. The complete file containing all Power BI visualizations has been uploaded to the GitHub repository for further reference.
 
-Power BI visualizations were created to explore and interpret key patterns in the data. The complete file containing all Power BI visualizations has been uploaded to the GitHub repository for further reference.
 
 ![image](https://github.com/user-attachments/assets/9ddd097e-22bf-4a33-9e55-96832b22d38e)
 
