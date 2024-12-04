@@ -2,12 +2,27 @@
 
 ---
 
+- <a href="#section7" style="font-size: normal;" > Analysis of Patient Satisfaction in Healthcare: A Multiple Regression Approach Using SAS</a>
 - <a href="#section6" style="font-size: normal;" > Loan Quality Prediction - A Data Driven Approach for Financial Risk Management</a>
 - <a href="#section1" style="font-size: normal;" > Personalized Movie Recommendation System using Collaborative Filtering</a>
 - <a href="#section2" style="font-size: normal;" > California Housing Data Association Rules Analysis</a>
 - <a href="#section3" style="font-size: normal;" > Grocery Data Analysis and Association Rules</a>
 - <a href="#section4" style="font-size: normal;" > Market Basket Analysis for RM Customer Purchase Behavior</a>
 - <a href="#section5" style="font-size: normal;" >Bank of Buffalo DBMS Project</a>
+
+
+---
+
+<h4 id="section6">Analysis of Patient Satisfaction in Healthcare: A Multiple Regression Approach Using SAS</h4>
+
+This project uses SAS to analyze patient satisfaction in a healthcare setting, focusing on factors such as age, length of stay, nurse-to-patient ratio, and medical staff visits. Using a multiple regression model, the goal was to identify significant predictors of patient satisfaction and provide actionable recommendations for healthcare administrators. The model explains 97.81% of the variation in satisfaction scores (R-squared = 0.9781) and includes key predictors like age, length of stay, the number of nurses, and the average daily staff visits, all showing significant contributions with p-values less than 0.05.
+
+Key findings include that the number of medical staff visits per day has the strongest positive correlation with patient satisfaction, explaining about 40% of the variation in satisfaction scores. Increasing staff visits can significantly improve patient satisfaction. The number of nurses also contributes to satisfaction, albeit with a weaker impact. The analysis also suggests that while age has a negative effect on satisfaction, providing personalized care can help address the specific needs of older patients. Length of stay, however, has minimal impact on satisfaction scores, implying that quality of care and timely treatment are more important. SAS coding, including correlation analysis, regression modeling, and hypothesis testing, was used throughout to perform these analyses and generate actionable insights.
+
+![image](https://github.com/user-attachments/assets/9e37175d-a361-4ec2-9678-5cf9ecc2a359)![image](https://github.com/user-attachments/assets/d96297d2-43d1-4f28-9ea0-964f069377da)
+
+
+[Go to GitHub Repository](https://github.com/Nandini-1312/Analysis-of-Patient-Satisfaction-in-Healthcare-A-Multiple-Regression-Approach)
 
 ---
 
