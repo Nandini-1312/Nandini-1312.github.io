@@ -111,6 +111,7 @@ This Power BI dashboard provides a comprehensive analysis of crime trends in Los
 
 Key insights include the high association of crimes with streets (301K incidents) and residential areas, emphasizing the need for targeted public safety measures. The analysis of arrest patterns reveals that crimes like stalking and homicide significantly increase the likelihood of adult arrests. Furthermore, location-based mapping shows crime hotspots across Los Angeles, with varying gender-based victimization trends. These insights can help authorities and policymakers enhance crime prevention strategies and allocate resources more effectively to ensure public safety.
 
+![LA Crime Dataset-1](https://github.com/user-attachments/assets/200799d9-f9fd-48ad-bbbf-6a7efadb8881)
 
 
 [Go to GitHub Repository](https://github.com/Nandini-1312/Data-Stories-with-Power-B-Analyzing-Crime-Trends-in-Los-Angeles)
