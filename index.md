@@ -96,7 +96,26 @@ End-to-end SQL scripts were developed from scratch, covering Data Definition Lan
 
 [Go to GitHub Repository](https://github.com/Nandini-1312/Bank-of-Buffalo-DBMS-Project)
 
+<h2 id="Data Stories with Power BI">Data Stories with Power BI</h2>
 
+---
+
+- <a href="#Vizsection1" style="font-size: normal;" > Analyzing Crime Trends in Los Angeles: A Data-Driven Perspective</a>
+
+---
+
+
+<h4 id="Vizsection1">Analyzing Crime Trends in Los Angeles: A Data-Driven Perspective</h4>
+
+This Power BI dashboard provides a comprehensive analysis of crime trends in Los Angeles, focusing on key factors such as age groups, geographic distribution, crime types, and influencing factors. It highlights crime concentration across different age demographics, showing that elderly individuals experience the highest number of incidents, followed by children and adults. The dashboard also examines crime distribution by area, with Central LA, 77th Street, and Pacific divisions reporting the highest crime rates. Additionally, it tracks crime trends over the years, showing a steady rise from 2020 to 2024, followed by a sharp decline in 2025, which may be attributed to policy changes or law enforcement actions.
+
+Key insights include the high association of crimes with streets (301K incidents) and residential areas, emphasizing the need for targeted public safety measures. The analysis of arrest patterns reveals that crimes like stalking and homicide significantly increase the likelihood of adult arrests. Furthermore, location-based mapping shows crime hotspots across Los Angeles, with varying gender-based victimization trends. These insights can help authorities and policymakers enhance crime prevention strategies and allocate resources more effectively to ensure public safety.
+
+
+
+[Go to GitHub Repository](https://github.com/Nandini-1312/Data-Stories-with-Power-B-Analyzing-Crime-Trends-in-Los-Angeles)
+
+---
 
 <h2 id="Education">Education</h2>
 
