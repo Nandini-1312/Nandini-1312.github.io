@@ -101,6 +101,7 @@ End-to-end SQL scripts were developed from scratch, covering Data Definition Lan
 ---
 
 - <a href="#Vizsection1" style="font-size: normal;" > Analyzing Crime Trends in Los Angeles: A Data-Driven Perspective</a>
+- <a href="#Vizsection2" style="font-size: normal;" > US Border Crossing Entry Data Analysis </a>
 
 ---
 
@@ -115,6 +116,21 @@ Key insights include the high association of crimes with streets (301K incidents
 
 
 [Go to GitHub Repository](https://github.com/Nandini-1312/Data-Stories-with-Power-B-Analyzing-Crime-Trends-in-Los-Angeles)
+
+---
+
+
+<h4 id="Vizsection2">US Border Crossing Entry Data Analysis</h4>
+
+This visualization provides an interactive analysis of US border crossings from 1995 to 2023, highlighting trends, geographic distribution, and key state-wise entry points. The border crossing trends chart shows historical variations, while the geospatial analysis pinpoints high-traffic locations across the US-Canada and US-Mexico borders. A Sankey diagram further breaks down state-wise crossings, with Texas leading at 4.14 billion entries, followed by key ports like El Paso (1.27B) and Hidalgo (637M).
+
+With a total of 11 billion recorded crossings, this dashboard offers valuable insights for policymakers and analysts. Users can filter data by year, state, and border type to explore cross-border movement patterns, enabling informed decision-making on immigration, trade, and security policies.
+
+![US Border Crossing Entry Data-1](https://github.com/user-attachments/assets/92f86c7d-16b4-44a9-901e-eb2dd71f8b2a)
+
+[Go to GitHub Repository](https://github.com/Nandini-1312/Data-Stories-with-Power-B-US-Border-Crossing-Entry-Data-Analysis/tree/main)
+
+
 
 ---
 
