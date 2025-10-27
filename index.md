@@ -140,9 +140,9 @@ With a total of 11 billion recorded crossings, this dashboard offers valuable in
 
 University at Buffalo, The State University of New York, Buffalo, NY
 
-Relevant coursework: Programming and Databases, DBMS, Numerical Analysis, Probability and Data Analysis, Statistical Data Mining, Machine Learning, Cybersecurity Privacy and Ethics
+•	Completed a rigorous, professional-level program providing advanced, hands-on experience in applying data science, analytics, and machine learning to solve real-world business and operational problems.
 
-Expected Graduation: January 2025
+•	Relevant coursework: Programming and Databases, DBMS, Numerical Analysis, Probability and Data Analysis, Statistical Data Mining, Machine Learning, Cybersecurity Privacy and Ethics.
 
 **Bachelor of Computer Applications**
 
