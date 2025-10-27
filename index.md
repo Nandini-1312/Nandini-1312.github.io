@@ -159,31 +159,59 @@ I hold a Master of Science in Data Science and Applications from the University 
 
 <h2 id="Work Experience">Work Experience</h2>
 
+****Community Dreams Foundation**
+
+Role: Data Engineer
+
+May 2025 - Present**
+•	Supported the implementation of Azure-based data pipelines and models using ADF, Databricks, and Azure SQL, integrating datasets from multiple sources to improve data accessibility and analytics capability.
+
+•	Assisted in optimizing ETL workflows and building data structures to support AI/ML initiatives and performance monitoring, ensuring reliable, well-documented, and scalable data processes
+
+****Local Grown Salads**
+
+Role: Data Engineer
+
+February 2025 – April 2025**
+•	Automated data extraction, transformation, and integration between Odoo ERP (MRP modules) and PostgreSQL using Python, streamlining the flow of production, customer, and quality data across farming subsystems for enhanced business visibility.
+
+•	Designed data models and analytics-ready datasets to support performance tracking, production scheduling, and traceability dashboards, enabling proactive decision-making and operational compliance.
+
+•	Partnered with cross-functional teams to translate process data into actionable business insights, improving efficiency, ensuring regulatory adherence, and supporting continuous process optimization through data validation and KPI monitoring.
+
+
+
 **Deloitte USI Consulting**
 
-Role: Analyst 
+**Role: Analyst 
 
 June 2021 - July 2023
+**
+•	Designed and optimized 300+ SSIS ETL workflows to extract, transform, and load (ETL) high-volume data into a data warehouse, supporting business intelligence reporting for Tennessee State's Benefits System.
 
-•	Spearheaded the development of 200+ advanced SSIS ETL packages for a US State Government project, ensuring seamless ETL of data from the source Application Database to an intermediate Staging Layer Database with a focus on Data Integrity.
+•	Developed a master ETL orchestration framework, enabling automated execution, logging, and error handling, reducing ETL downtime by 90% and improving data pipeline efficiency.
 
-•	Architected and optimized ETL packages to facilitate both full data loads during initial runs and highly efficient incremental data loads during subsequent daily runs, resulting in remarkable improvement in ETL performance and eliminating data redundancy.
+•	Wrote complex SQL queries, stored procedures, and views in Oracle PL/SQL, leveraging CTEs, partitioning, and indexing to process 200+ business-critical reports with enhanced performance.
 
-•	Crafted intricate Oracle PL/SQL stored procedures to extract and transform data for over 200+ customized client reports and dashboards. Developed reusable ETL packages for executing these procedural scripts at diverse reporting frequencies (Daily, Monthly, Annual), and leveraging Tableau for sophisticated data visualization, increasing user experience by 30%.
+•	Applied data modeling best practices to design fact and dimension tables, supporting Tableau dashboards that provided real-time insights into transactional, eligibility, and benefit issuance data.
 
-•	Engineered a robust restart and error tracking mechanism across the ETL process, ensuring swift identification and resolution of data discrepancies. This mechanism facilitated the targeted rerunning of errored ETL packages, thereby achieving a 90% reduction in ETL process downtime. Additionally, automated archival processes were implemented to boost operational efficiency and ensure compliance, preserving data integrity and accessibility at all times.
+•	Created federal compliance reports in fixed-length CSV format, integrating business logic to provide structured data submissions to the Administration for Children and Families (ACF).
 
-**Deloitte USI Consulting**
+•	Enhanced ETL performance by 43% through data cleansing, redundancy elimination, and transformation, ensuring accurate and efficient integration across systems.
+
+•	Collaborated with business stakeholders, analysts, and developers to define BI reporting requirements, ensuring data accuracy, dashboard usability, and KPI tracking. Developed Tableau dashboards for executive-level reporting, providing actionable insights into Eligibility Determination, Benefits Issuance, and Claims data, increasing reporting efficiency by 29%.
+
+
+****Deloitte USI Consulting**
 
 Role: Associate Analyst
 
-August 2019 - May 2021
+August 2019 - May 2021**
 
-•	Led the extraction and preprocessing of data from diverse sources including application systems, files, and databases for a critical Legacy System Conversion initiative. Standardized data format, structure, and quality, achieving data accuracy and ensuring compliance with industry standards.
+•	Extracted, transformed, and standardized multi-source datasets for a Legacy System Conversion initiative for the State of Connecticut, ensuring 98% data accuracy and alignment with business intelligence requirements. Improved ETL efficiency by refining SSIS workflows and SQL-based transformations, reducing processing time by 50% and ensuring near-zero data loss.
 
-•	Implemented SSIS ETL jobs and procedural scripts to efficiently stage, integrate, and transform data, resulting in a 50% reduction in data processing time and minimized information loss to less than 0.2%. Completed complex data transformations ahead of schedule to meet project deadlines.
+•	Migrated cleansed and structured data into target systems using Salesforce’s Bulk API, enhancing data accessibility, downstream analytics, and compliance reporting. Led UAT, system validation, and data reconciliation, ensuring migrated data maintained its accuracy, consistency, and traceability across business operations and BI reports.
 
-•	Utilized Salesforce’s bulk data loading utility to seamlessly migrate transformed data into the target database, improving operational efficiency and maintaining high data integrity and accessibility throughout the conversion process.
 
 <h2 id="Skills">Skills</h2>
 
