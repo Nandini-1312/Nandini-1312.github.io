@@ -153,13 +153,9 @@ Graduated On: June 2019
 
 <h2 id="About Me">About Me</h2>
 
-Hello! I’m Nandini Ethirajulu, a dedicated data scientist currently pursuing a Master’s in Data Sciences and Applications at the University at Buffalo. With a robust background in computer applications and data science, I have cultivated a diverse skill set encompassing programming, data analysis, machine learning, and data management.
+Hello! I’m Nandini Ethirajulu, a data professional with over 6 years of experience in analytics, business intelligence, and data engineering. At Deloitte USI Consulting, I delivered scalable data solutions for major clients like the State of Tennessee and State of Connecticut, developing optimized ETL pipelines, automated data processes, and insightful dashboards to support strategic decision-making.
 
-My professional journey commenced at Deloitte USI Consulting, where I served as an Analyst and Associate Analyst. During my tenure, I spearheaded the development of advanced ETL packages, optimized data integration processes, and crafted sophisticated data visualizations using Tableau. My efforts have consistently aimed at enhancing data integrity, minimizing process downtime, and improving user experience.
-
-In addition to my professional experience, I have undertaken various academic projects that have sharpened my technical skills. From conducting market basket analysis to designing comprehensive DBMS systems, I have applied my expertise to solve complex data problems and deliver actionable insights. My coursework has spanned a broad spectrum of topics, including machine learning, statistical data mining, cybersecurity, and ethics, providing me with a solid foundation in both theory and practice.
-
-I am continually eager to embrace new challenges and contribute to innovative projects. My objective is to leverage my skills and experience to drive data-driven decision-making and create a meaningful impact within any organization I join. Feel free to connect with me on [LinkedIn](www.linkedin.com/in/nandini-ethirajulu) or explore my projects on [GitHub](https://github.com/Nandini-1312).
+I hold a Master of Science in Data Science and Applications from the University at Buffalo, which deepened my expertise in machine learning, statistical analysis, and cloud-based analytics. This advanced training, combined with my technical skills in Python, R, SQL, Tableau, and Power BI, enables me to translate complex data into clear, actionable insights that drive business impact.
 
 <h2 id="Work Experience">Work Experience</h2>
 
