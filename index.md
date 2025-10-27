@@ -159,20 +159,22 @@ I hold a Master of Science in Data Science and Applications from the University 
 
 <h2 id="Work Experience">Work Experience</h2>
 
-****Community Dreams Foundation**
+**Community Dreams Foundation**
 
 Role: Data Engineer
 
-May 2025 - Present**
+May 2025 - Present
+
 •	Supported the implementation of Azure-based data pipelines and models using ADF, Databricks, and Azure SQL, integrating datasets from multiple sources to improve data accessibility and analytics capability.
 
 •	Assisted in optimizing ETL workflows and building data structures to support AI/ML initiatives and performance monitoring, ensuring reliable, well-documented, and scalable data processes
 
-****Local Grown Salads**
+**Local Grown Salads**
 
 Role: Data Engineer
 
-February 2025 – April 2025**
+February 2025 – April 2025
+
 •	Automated data extraction, transformation, and integration between Odoo ERP (MRP modules) and PostgreSQL using Python, streamlining the flow of production, customer, and quality data across farming subsystems for enhanced business visibility.
 
 •	Designed data models and analytics-ready datasets to support performance tracking, production scheduling, and traceability dashboards, enabling proactive decision-making and operational compliance.
@@ -183,10 +185,10 @@ February 2025 – April 2025**
 
 **Deloitte USI Consulting**
 
-**Role: Analyst 
+Role: Analyst 
 
 June 2021 - July 2023
-**
+
 •	Designed and optimized 300+ SSIS ETL workflows to extract, transform, and load (ETL) high-volume data into a data warehouse, supporting business intelligence reporting for Tennessee State's Benefits System.
 
 •	Developed a master ETL orchestration framework, enabling automated execution, logging, and error handling, reducing ETL downtime by 90% and improving data pipeline efficiency.
@@ -202,11 +204,11 @@ June 2021 - July 2023
 •	Collaborated with business stakeholders, analysts, and developers to define BI reporting requirements, ensuring data accuracy, dashboard usability, and KPI tracking. Developed Tableau dashboards for executive-level reporting, providing actionable insights into Eligibility Determination, Benefits Issuance, and Claims data, increasing reporting efficiency by 29%.
 
 
-****Deloitte USI Consulting**
+**Deloitte USI Consulting**
 
 Role: Associate Analyst
 
-August 2019 - May 2021**
+August 2019 - May 2021
 
 •	Extracted, transformed, and standardized multi-source datasets for a Legacy System Conversion initiative for the State of Connecticut, ensuring 98% data accuracy and alignment with business intelligence requirements. Improved ETL efficiency by refining SSIS workflows and SQL-based transformations, reducing processing time by 50% and ensuring near-zero data loss.
 
